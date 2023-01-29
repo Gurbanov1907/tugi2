@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(90deg, #ddd, #eee);
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  padding: 1px;
+  background-image: url('https://media.istockphoto.com/id/1301038922/photo/smart-young-mixed-race-student-using-laptop-isolated-over-white-background.jpg?s=612x612&w=0&k=20&c=NIBtPfbgJeY9l09nRRCb9MnxvE4yRCLAtrVgnTunEOQ=');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 450px;
+  margin: 150px 150px;
+}
+
+.sol {
+  font-size: 16pt;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: darkred;
+}
+
+.header {
+  font-size: 32pt;
+  text-transform: capitalize;
+  line-height: 1.5em;
+  margin: 20px 0;
+  color: navy;
+}
+
+.info {
+  font-size: 12pt;
+  line-height: 1.5em;
+  font-family: sans-serif;
+  margin: 20px 0;
+}
+
+.btn-panel {
+
+}
+
+.btn {
+/*  padding: 4px 8px;*/
+  width: 120px;
+  height: 40px;
+  border: 1px solid maroon;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.btn:hover {
+  background-color: red;
+  color: white;
+  border-color: red;
+}
+
+.btn1 {
+  background-color: maroon;
+  color: #fff;
+}
+
+.btn2 {
+  background-color: transparent;
+}
